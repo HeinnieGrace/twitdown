@@ -1,0 +1,121 @@
+ion-header, ion-content {
+    --ion-background-color: #121416;
+}
+
+ion-header ion-toolbar ion-title {
+    text-align: center;
+    font-size: 25px;
+    color: #B388FF;
+}
+
+ion-header ion-toolbar ion-buttons {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 32px;
+}
+
+#homeProfile {
+    padding: 0 15px;
+    margin-bottom: 13px;
+}
+
+#profileImg {
+    padding-right: 15px;
+    padding-top: 2px;
+}
+
+#profileImg ion-avatar {
+    width: 100%;
+    height: 100%;
+}
+
+ion-col {
+    padding: 2px;
+}
+
+ion-text {
+    font-size: 18px;
+}
+
+.faded {
+    color: #757575;
+}
+
+.usernameCSS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usernameCSS ion-icon {
+    font-size: 18px;
+}
+
+#editProfile ion-button {
+    height: 33px;
+    text-transform: none;
+    font-size: 1rem;
+    color: black;
+    --background: #B388FF;
+    width: 100%;
+}
+
+#myPostsTitle {
+    margin-bottom: 10px;
+}
+
+#myPostsTitle ion-text {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#myPosts {
+    padding: 0 15px;
+}
+
+.eachPost {
+    background-color: #444348;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.postProfile {
+    margin-bottom: 5px;
+}
+
+.postProfileImg {
+    padding-right: 10px;
+}
+
+.postProfileImg ion-avatar {
+    width: 100%;
+    height: 100%;
+}
+
+.postProfileName {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.postTexts ion-img::part(image) {
+    margin-top: 10px;
+}
+
+#newPost {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+#newPost ion-button {
+    --border-radius: 50px;
+    height: 65px;
+    width: 65px;
+    --background: #B388FF;
+    color: black;
+    font-size: 18px;
+    padding: 0;
+}

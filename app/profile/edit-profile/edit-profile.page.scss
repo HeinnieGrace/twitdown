@@ -1,0 +1,125 @@
+ion-content, ion-header {
+    --ion-background-color: #121416;
+}
+
+ion-header ion-toolbar ion-title {
+    text-align: center;
+    font-size: 25px;
+    color: #B388FF;
+}
+
+ion-header ion-toolbar ion-buttons {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 32px;
+    --background: transparent;
+    color: white;
+}
+
+#editProfileImg {
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+#theProfileImg {
+    margin-right: 20px;
+}
+
+#theProfileImg ion-avatar {
+    height: 100%;
+    width: 100%;
+}
+
+#editOptions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+ion-button {
+    text-transform: none;
+}
+
+ion-col {
+    padding: 0;
+}
+
+#remove {
+    --background: transparent;
+    border: 3px solid #444348;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#change {
+    --background: #B388FF;
+    color: black;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#userDetails {
+    margin: 0 15px;
+}
+
+.profileInput {
+    margin-bottom: 15px;
+}
+
+.profileInput ion-input, .profileInput ion-textarea {
+    margin-top: 5px;
+}
+
+.profileInput ion-label, .profileInput ion-input, .profileInput ion-textarea {
+    color: white;
+    font-size: 1.1em;
+}
+
+ion-input, ion-textarea {
+    --background: #444348;
+    border-radius: 5px;
+    --padding-start: 10px;
+}
+
+#cancelSave {
+    position: absolute;
+    bottom: 15px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+#cancelSave ion-grid {
+    margin: 0;
+    padding: 0;
+}
+
+#cancelEdit ion-button, #saveEdit ion-button {
+    display: flex;
+    flex-grow: 2;
+}
+
+#cancelEdit {
+    padding-right: 5px;
+}
+
+#saveEdit {
+    padding-left: 5px;
+}
+
+#cancelEdit ion-button {
+    --background: transparent;
+    border: 3px solid #444348;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#saveEdit ion-button {
+    --background: #B388FF;
+    color: black;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+}

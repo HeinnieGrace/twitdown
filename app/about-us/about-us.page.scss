@@ -1,0 +1,16 @@
+ion-header, ion-content {
+    --ion-background-color: #121416;
+}
+
+ion-header ion-toolbar ion-title {
+    text-align: center;
+    font-size: 25px;
+    color: #B388FF;
+}
+
+ion-header ion-toolbar ion-buttons {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 32px;
+}

@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start"> <!--create button here-->
+      <ion-menu-button menu="main-menu" color="light"></ion-menu-button> <!--follow id from app component-->
+    </ion-buttons>
+    <ion-title>Direct Message</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="directMessage">
+
+    <div class="eachPost"><!--message 1-->
+      <div class="postProfile">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2.5">
+              <div class="postProfileImg">
+                <ion-avatar><ion-img src="assets/potraits/pro7.png"></ion-img></ion-avatar>  <!--will change later with database-->
+              </div>
+            </ion-col>
+            <ion-col>
+              <div class="postProfileName">
+                <ion-grid>
+                  <ion-row><ion-col><ion-text class="postUsername" color="light"><b>Williams.J02</b></ion-text></ion-col></ion-row> <!--will change later with database-->
+                  <ion-row><ion-col><ion-text class="postTime faded">26 Feb 2022, 07:48</ion-text></ion-col></ion-row> <!--will change later with database-->
+                </ion-grid>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="postTexts">
+        <ion-text color="light">Good morning Andrew!</ion-text> <!--will change later with database-->
+      </div>
+    </div>
+
+    <div class="eachPost" routerLink="comment"><!--message 2-->
+      <div class="postProfile">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2.5">
+              <div class="postProfileImg">
+                <ion-avatar><ion-img src="assets/potraits/pro4.png"></ion-img></ion-avatar>  <!--will change later with database-->
+              </div>
+            </ion-col>
+            <ion-col>
+              <div class="postProfileName">
+                <ion-grid>
+                  <ion-row><ion-col><ion-text class="postUsername" color="light"><b>Melissa_13</b></ion-text></ion-col></ion-row> <!--will change later with database-->
+                  <ion-row><ion-col><ion-text class="postTime faded">25 Feb 2022, 15:03</ion-text></ion-col></ion-row> <!--will change later with database-->
+                </ion-grid>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="postTexts">
+        <ion-text color="light">Yo! Haven’t heard from you in a while...</ion-text> <!--will change later with database-->
+      </div>
+    </div>
+
+  </div>
+</ion-content>

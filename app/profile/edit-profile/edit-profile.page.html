@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons><ion-back-button defaultHref="/profile"></ion-back-button></ion-buttons>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="editProfileImg">
+    <div id="theProfileImg">
+      <ion-avatar><ion-img src="assets/potraits/pro1.png"></ion-img></ion-avatar>
+    </div>
+    <div id="editOptions">
+      <ion-grid>
+        <ion-row><ion-col><ion-button id="remove">Remove image</ion-button></ion-col></ion-row>
+        <ion-row><ion-col><ion-button id="change"><b>Change image</b></ion-button></ion-col></ion-row>
+      </ion-grid>
+    </div>
+  </div>
+
+  <div id="userDetails">
+    <ion-grid>
+      <ion-row>
+        <ion-col class="profileInput">
+          <ion-label>Username</ion-label>
+          <ion-input value="Andrew95"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="profileInput">
+          <ion-label>Full Name</ion-label>
+          <ion-input value="Andrew Marevin"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="profileInput">
+          <ion-label>Email</ion-label>
+          <ion-input value="andrew.m@gmail.com"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="profileInput">
+          <ion-label>Bio</ion-label>
+          <ion-textarea value="I'd always thought lightning was something only I could see."></ion-textarea>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div id="cancelSave">
+    <ion-grid>
+      <ion-row>
+        <ion-col id="cancelEdit">
+          <ion-button>Cancel</ion-button>
+        </ion-col>
+        <ion-col id="saveEdit">
+          <ion-button>Save</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

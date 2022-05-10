@@ -1,0 +1,118 @@
+ion-content, ion-header {
+    --ion-background-color: #121416;
+    letter-spacing: 1px;
+}
+
+ion-header ion-toolbar ion-title {
+    text-align: center;
+    font-size: 25px;
+    color: #B388FF;
+}
+
+ion-header ion-toolbar ion-buttons {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 32px;
+    --background: transparent;
+    color: white;
+}
+
+.eachPost {
+    background-color: #444348;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.postProfile {
+    margin-bottom: 5px;
+}
+
+#topProfile {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 15px;
+}
+
+ion-textarea {
+    color: white;
+}
+
+#imgVid {
+    flex-grow:1;
+    border: 1px solid #757575;
+    border-radius: 5px;
+}
+
+#empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    color: white;
+}
+
+#addFile {
+    display: flex;
+    flex-direction: row;
+    margin: 0 15px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.file {
+    display: flex;
+    border-radius: 5px;
+}
+
+.file ion-button {
+    --background: none;
+    border: 2px solid #757575;
+    border-radius: 5px;
+    height: 45px;
+    text-transform: none;
+    flex-grow: 1;
+}
+
+#post {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 10px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.postBtn{
+    flex-grow: 1;
+    width: 50%;
+}
+
+#post div:nth-child(1) {
+    margin-right: 5px;
+}
+#post div:nth-child(2) {
+    margin-left: 5px;
+}
+
+.postBtn ion-button {
+    width: 100%;
+    text-transform: none;
+}
+
+#post div:nth-child(1) ion-button {
+    --background: none;
+    border: 2px solid #757575;
+    border-radius: 5px;
+}
+
+#post div:nth-child(2) ion-button {
+    --background: #B388FF;
+    color: black;
+    font-weight: bold;
+}

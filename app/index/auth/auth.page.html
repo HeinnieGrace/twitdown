@@ -1,0 +1,34 @@
+<ion-content>
+  <div class="bgColor"> <!--for background-->
+
+    <img src="assets/img/logo.jpeg" alt="Main logo" id="myLogo"> <!--for logo-->
+    
+    <ion-card class="ion-text-wrap"> 
+      <ion-card-content>
+        <ion-label>Username</ion-label>
+        <ion-item>
+            <ion-input placeholder="Enter your username"></ion-input> <!--username input-->
+        </ion-item>
+        <br>
+        <ion-label>Password</ion-label>
+        <ion-item>
+            <ion-input placeholder="Enter your password" type="password"></ion-input> <!--password input-->
+        </ion-item>
+        <ion-button routerLink="../../profile">Login</ion-button> <!--login button-->
+        <!--remember me & forgot pass below-->
+        <div id="smallBox">
+          &nbsp;
+          <ion-checkbox></ion-checkbox> &nbsp;<p class="theFont">Remember Me</p>
+          <a class="theFont" id="fontP">Forgot Password?</a>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+  </div>
+  
+</ion-content>
+
+<!--for footer-->
+<ion-footer>
+  <ion-label class="myFont">Dont have an account? <a routerLink="register"><b>Sign up</b></a></ion-label>
+</ion-footer>

@@ -1,0 +1,143 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start"> <!--create button here-->
+      <ion-menu-button menu="main-menu" color="light"></ion-menu-button> <!--follow id from app component-->
+    </ion-buttons>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="homeProfile">
+    <div class="topProfile">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4">
+            <div id="profileImg">
+              <ion-avatar><ion-img src="assets/potraits/pro1.png"></ion-img></ion-avatar>
+            </div>
+          </ion-col>
+          <ion-col>
+            <ion-row>
+              <ion-col>
+                <div class="usernameCSS">
+                  <ion-text color="light"><b>Andrew95</b></ion-text>
+                  <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-text class="faded">Andrew Marevin</ion-text>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-text class="faded">andrew.m@gmail.com</ion-text>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <div id="editProfile">
+                  <ion-button routerLink="edit-profile"><b>Edit profile</b></ion-button>
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+    <div class="secProfile">
+      <ion-text color="light">I'd always thought lightning was something only I could see.</ion-text>
+    </div>
+  </div>
+
+  <div id="newPost">
+    <ion-button routerLink="add-post"><ion-icon name="add-outline"></ion-icon></ion-button>
+  </div>
+  
+  <div id="myPosts">
+
+    <div id="myPostsTitle">
+      <ion-text color="light">My posts</ion-text>
+    </div>
+
+    <div class="eachPost">
+      <div class="postProfile">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2.5">
+              <div class="postProfileImg">
+                <ion-avatar><ion-img src="assets/potraits/pro1.png"></ion-img></ion-avatar>
+              </div>
+            </ion-col>
+            <ion-col>
+              <div class="postProfileName">
+                <ion-grid>
+                  <ion-row><ion-col><ion-text class="postUsername" color="light"><b>Andrew95</b></ion-text></ion-col></ion-row>
+                  <ion-row><ion-col><ion-text class="postTime faded">15 Feb 2022, 17:06</ion-text></ion-col></ion-row>
+                </ion-grid>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="postTexts">
+        <ion-text color="light">It dawned on him that others could make him happier, but only he could make himself happy.
+        </ion-text>
+      </div>
+    </div>
+
+    <div class="eachPost">
+      <div class="postProfile">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2.5">
+              <div class="postProfileImg">
+                <ion-avatar><ion-img src="assets/potraits/pro1.png"></ion-img></ion-avatar>
+              </div>
+            </ion-col>
+            <ion-col>
+              <div class="postProfileName">
+                <ion-grid>
+                  <ion-row><ion-col><ion-text class="postUsername" color="light"><b>Andrew95</b></ion-text></ion-col></ion-row>
+                  <ion-row><ion-col><ion-text class="postTime faded">15 Feb 2022, 17:06</ion-text></ion-col></ion-row>
+                </ion-grid>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="postTexts">
+        <ion-text color="light">The sky is clear; the stars are twinkling.</ion-text>
+        <ion-img src="assets/img/stars.png"></ion-img>
+      </div>
+    </div>
+
+    <div class="eachPost">
+      <div class="postProfile">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2.5">
+              <div class="postProfileImg">
+                <ion-avatar><ion-img src="assets/potraits/pro1.png"></ion-img></ion-avatar>
+              </div>
+            </ion-col>
+            <ion-col>
+              <div class="postProfileName">
+                <ion-grid>
+                  <ion-row><ion-col><ion-text class="postUsername" color="light"><b>Andrew95</b></ion-text></ion-col></ion-row>
+                  <ion-row><ion-col><ion-text class="postTime faded">15 Feb 2022, 17:06</ion-text></ion-col></ion-row>
+                </ion-grid>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="postTexts">
+        <ion-text color="light">Today I heard something new and unmemorable. Kevin embraced his ability to be at the wrong place at the wrong time.</ion-text>
+      </div>
+    </div>
+
+  </div>
+</ion-content>

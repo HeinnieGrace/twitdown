@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons><ion-back-button defaultHref="/profile"></ion-back-button></ion-buttons>
+    <ion-title>New Post</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="eachPost">
+    <div class="postProfile">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="2.5">
+            <div class="postProfileImg">
+              <ion-avatar><ion-img src="assets/potraits/pro1.png"></ion-img></ion-avatar>
+            </div>
+          </ion-col>
+          <ion-col>
+            <div id="topProfile">
+              <ion-text class="postUsername" color="light"><b>Andrew95</b></ion-text>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+    <div id="newPost">
+      <ion-textarea cols="" type="text" placeholder="What's on your mind?" rows="10"></ion-textarea>
+    </div>
+    <div id="imgVid">
+      <!-- place to add img or vid -->
+      <!-- if no img -->
+      <p class="ion-text-center" id="empty">You haven't upload any<br> image or video.</p>
+    </div>
+  </div>
+  <div id="addFile">
+    <div class="file">
+      <ion-button><ion-icon name="videocam-outline"></ion-icon>&nbsp;&nbsp;Video</ion-button>
+    </div>
+    <div class="file">
+      <ion-button><ion-icon name="camera-outline"></ion-icon>&nbsp;&nbsp;Camera</ion-button>
+    </div>
+    <div class="file">
+      <ion-button><ion-icon name="image-outline"></ion-icon>&nbsp;&nbsp;Image</ion-button>
+    </div>
+  </div>
+  <div id="post">
+    <div class="postBtn"><ion-button>Discard</ion-button></div>
+    <div class="postBtn"><ion-button>Post</ion-button></div>
+  </div>
+</ion-content>

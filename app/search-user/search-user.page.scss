@@ -1,0 +1,54 @@
+ion-header, ion-content {
+    --ion-background-color: #121416;
+}
+
+ion-header ion-toolbar ion-title {
+    text-align: center;
+    font-size: 25px;
+    color: #B388FF;
+}
+
+ion-header ion-toolbar ion-buttons {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 32px;
+}
+
+.eachPost {
+    position: relative;
+    background-color: #444348;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.postProfile {
+    margin-bottom: 5px;
+}
+
+#topProfile {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-left: 15px;
+    flex-direction: column;
+}
+
+#topProfile ion-text:nth-child(2) {
+    margin-top: 5px;
+    color: #757575;
+}
+
+.msg {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.msg ion-button {
+    --background: none;
+    --box-shadow: none;
+}

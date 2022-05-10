@@ -1,0 +1,71 @@
+ion-header,ion-content{
+    --ion-background-color: #121416;
+}
+
+ion-header ion-toolbar ion-title {
+    text-align: center;
+    font-size: 25px;
+    color: #B388FF;
+}
+
+ion-header ion-toolbar ion-buttons {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 32px;
+}
+
+#directMessage {
+    padding: 15px 15px;
+}
+
+ion-col {
+    padding: 2px;
+}
+
+.faded {
+    color: #757575;
+}
+
+#myPostsTitle {
+    margin-bottom: 10px;
+}
+
+#myPostsTitle ion-text {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.eachPost {
+    background-color: #444348;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.postProfile {
+    margin-bottom: 5px;
+}
+
+.postProfileImg {
+    padding-right: 10px;
+}
+
+.postProfileImg ion-avatar {
+    width: 100%;
+    height: 100%;
+}
+
+.postProfileName {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.postTexts ion-img::part(image) {
+    margin-top: 10px;
+}
+
+.postTexts ion-text {
+    font-size: 1.1rem;
+}

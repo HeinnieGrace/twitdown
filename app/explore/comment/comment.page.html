@@ -1,0 +1,105 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Explore</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="comment">
+
+    <div class="eachPost"> <!-- post 1-->
+      <div class="postProfile">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2.5">
+              <div class="postProfileImg">
+                <ion-avatar><ion-img src="assets/potraits/pro4.png"></ion-img></ion-avatar>  <!--will change later with database-->
+              </div>
+            </ion-col>
+            <ion-col>
+              <div class="postProfileName">
+                <ion-grid>
+                  <ion-row><ion-col><ion-text class="postUsername" color="light"><b>Melissa_13</b></ion-text></ion-col></ion-row> <!--will change later with database-->
+                  <ion-row><ion-col><ion-text class="postTime faded">27 Feb 2022, 10:31</ion-text></ion-col></ion-row> <!--will change later with database-->
+                </ion-grid>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="postTexts">
+        <ion-text color="light">Always look on the bright side: being an optimist can help you live longer.</ion-text> <!--will change later with database-->
+      </div>
+    </div>
+
+    <br>
+
+    <!--below will be comment section-->
+    <div id="myPostsTitle">
+      <ion-text color="light">Comments</ion-text> <!--subtitle-->
+    </div>
+
+    <div id="commentSection">
+
+      <div class="commentPost"><!-- comment 1-->
+        <div class="postProfile">
+          <ion-grid>
+            <ion-row>
+              <ion-col size="2.5">
+                <div class="postProfileImg">
+                  <ion-avatar><ion-img src="assets/potraits/pro5.png"></ion-img></ion-avatar>  <!--will change later with database-->
+                </div>
+              </ion-col>
+              <ion-col>
+                <div class="postProfileName">
+                  <ion-grid>
+                    <ion-row><ion-col><ion-text class="postUsername" color="light"><b>Kayle123</b></ion-text></ion-col></ion-row> <!--will change later with database-->
+                    <ion-row><ion-col><ion-text class="postTime faded">27 Feb 2022, 10:45</ion-text></ion-col></ion-row> <!--will change later with database-->
+                  </ion-grid>
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+        <div class="postTexts">
+          <ion-text color="light">Thanks for the daily reminder Melissa... Let’s all be more optimistic and a positive thinker!</ion-text> <!--will change later with database-->
+        </div>
+      </div>
+
+      <div class="commentPost"><!-- comment 2-->
+        <div class="postProfile">
+          <ion-grid>
+            <ion-row>
+              <ion-col size="2.5">
+                <div class="postProfileImg">
+                  <ion-avatar><ion-img src="assets/potraits/pro6.png"></ion-img></ion-avatar>  <!--will change later with database-->
+                </div>
+              </ion-col>
+              <ion-col>
+                <div class="postProfileName">
+                  <ion-grid>
+                    <ion-row><ion-col><ion-text class="postUsername" color="light"><b>_Tom_</b></ion-text></ion-col></ion-row> <!--will change later with database-->
+                    <ion-row><ion-col><ion-text class="postTime faded">27 Feb 2022, 10:55</ion-text></ion-col></ion-row> <!--will change later with database-->
+                  </ion-grid>
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+        <div class="postTexts">
+          <ion-text color="light">You know what makes you live longer? Eating vegetables. LETS GO VEGAN FOLKS!💯💯</ion-text> <!--will change later with database-->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="myComment"><!--no function yet!-->
+    <ion-input placeholder="Write a comment..."></ion-input>
+    <ion-button><ion-icon name="paper-plane-outline" color="dark"></ion-icon></ion-button>
+  </div>
+
+</ion-content>
